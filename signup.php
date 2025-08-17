@@ -1,5 +1,5 @@
 <?php
-require 'db.php';
+require '';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = trim($_POST['username']);//in form
